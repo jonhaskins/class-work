@@ -3,47 +3,34 @@ body{
 }
 .outer{
   background-color: yellow;
-  padding: 50px;
+  height: 500px;
 }
-.navigation{
+.nav{
   background-color: blue;
+  border: solid 1px black;
 }
+
 .jumbotron{
   background-color: grey;
-  border: solid 2px black;
-  height: 600px;
+  border: solid 1px black;
 }
-.lift{
-  border: solid 2px black;
-  background-color: teal;
-}
-.cities{
-  background-color: lightblue;
-  border: solid 2px black;
-}
-.drive{
-  background-color: darkblue;
-  border: solid 2px black;
-}
-.take{
+.pre{
+  border:solid 1px black;
   background-color: green;
-  border: solid 2px black;
 }
-.log{
-  border: solid 2px black;
-  background-color: aqua;
+.content{
+  background-color: red;
+  border: solid 1px black;
 }
-.ride{
-  background-color: green;
-  border: solid 2px black;
+.aside{
+  background-color: black;
+  border: solid 1px black;
+  color: grey;
 }
-.sign{
-  background-color: grey;
-  border: solid 2px black;
+.promo{
+  border: solid 1px black;
 }
 .footer{
   background-color: orange;
-}
-.promo{
-  background-color: grey;
+  border: solid 1px black;
 }
