@@ -10,7 +10,7 @@ body{
   border: solid 1px black;
 }
 
-.jumbotron{
+.jumbo{
   background-color: grey;
   border: solid 1px black;
 }
@@ -29,8 +29,57 @@ body{
 }
 .promo{
   border: solid 1px black;
+  background-color: yellow;
 }
 .footer{
   background-color: orange;
   border: solid 1px black;
+}
+@media only screen and (min-width: 375px){
+  .nav{
+    background-color: green;
+  }
+  .jumbo{
+    background-color: purple;
+  }
+
+  .pre{
+    background-color: orange;
+  }
+  .content{
+    background-color: blue;
+  }
+  .aside{
+    background-color: red;
+  }
+  .promo{
+    background-color: aqua;
+  }
+  .footer{
+    background-color: magenta;
+  }
+}
+@media only screen and (min-width: 768px){
+  .jumbo{
+    background-color: green;
+  }
+  .pre{
+    background-color: purple;
+  }
+
+  .content{
+    background-color: orange;
+  }
+  .aside{
+    background-color: blue;
+  }
+  .promo{
+    background-color: red;
+  }
+  .footer{
+    background-color: aqua;
+  }
+  .nav{
+    background-color: magenta;
+  }
 }
